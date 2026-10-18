@@ -6,6 +6,19 @@ radios such as the Vero VR-N76. Change channels, set the volume, scan and read
 APRS messages without taking the radio out of your pocket or pack. No phone is
 needed once the radio is paired.
 
+> ### Built on HTCommander
+>
+> HT Remote exists because of **[HTCommander](https://github.com/Ylianst/HTCommander)**
+> by Ylianst. HTCommander's open-source work on these radios' Bluetooth protocol
+> is what made this app possible, and much of HT Remote's radio code is adapted
+> from it.
+>
+> HTCommander is the full-featured app for these radios: channel programming,
+> APRS, WinLink, a terminal, BBS and more, plus audio on some platforms, on
+> Windows, macOS, Linux, iOS, Android and the web. HT Remote is only a small
+> wrist remote. **If you own one of these radios, go try HTCommander and
+> [give it a star](https://github.com/Ylianst/HTCommander).**
+
 <p>
   <img src="docs/images/1-main.png" width="200" alt="Both bands on the main screen">
   <img src="docs/images/3-channel-list.png" width="200" alt="Channel list">
@@ -88,7 +101,8 @@ kept on the watch.
   goes through it, so you talk and listen through the radio itself. No amateur
   radio licence is needed to use the app.
 - **One control app at a time.** The radio only lets one app control it. Close
-  other radio apps (such as HTCommander on your phone) before connecting.
+  other radio apps (such as [HTCommander](https://github.com/Ylianst/HTCommander)
+  on your phone) before connecting.
 - **Messages arrive only while the app is open,** because that is the only time
   the watch is connected to the radio. The watch can't send acknowledgements,
   so the sender may keep retrying until the radio or another station
@@ -116,8 +130,9 @@ HT Remote is by Clint Wilson (KO4LTW) and is licensed under the
 HTCommander, Vero, BTech, Radioddity, Radtel, Zepp Health or Amazfit. All
 product names belong to their owners.
 
-- The radio protocol code is adapted from
-  [HTCommander](https://github.com/Ylianst/HTCommander) by Ylianst (Apache-2.0).
+- **[HTCommander](https://github.com/Ylianst/HTCommander) by Ylianst** (Apache-2.0)
+  is the foundation of this app. The radio protocol code is adapted from it.
+  Please support that project.
 - [benlink](https://github.com/khusmann/benlink) by Kyle Husmann (Apache-2.0)
   was used as a protocol reference.
 - `@silver-zepp/easy-ble` by Silver, Zepp Health (MIT) handles Bluetooth.
