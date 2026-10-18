@@ -1,0 +1,45 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1131922,
+    "appName": "HT Remote",
+    "appType": "app",
+    "version": {
+      "code": 2,
+      "name": "0.2.0"
+    },
+    "icon": "icon.png",
+    "vender": "clint",
+    "description": "Remote for the Vero VR-N76: channel display, swipe and list channel change, crown volume, scan, A/B select and APRS messages."
+  },
+  "permissions": ["device:os.ble", "device:os.local_storage"],
+  "runtime": {
+    "apiVersion": {
+      "minVersion": "3.0.0",
+      "compatible": "3.0.0",
+      "target": "4.2.0"
+    }
+  },
+  "targets": {
+    "common": {
+      "module": {
+        "page": {
+          "pages": ["page/index"]
+        }
+      },
+      "platforms": [
+        {
+          "st": "r"
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "HT Remote"
+    }
+  },
+  "defaultLanguage": "en-US",
+  "debug": false
+}

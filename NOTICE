@@ -1,0 +1,47 @@
+HT Remote
+Copyright 2026 Clint Wilson (KO4LTW)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+HT Remote is an independent project. It is not affiliated with or endorsed
+by HTCommander, Vero, Zepp Health or Amazfit.
+
+This product includes software and protocol knowledge from:
+
+HTCommander (https://github.com/Ylianst/HTCommander), by Ylianst
+  Licensed under the Apache License, Version 2.0.
+  The radio command encoding and reply decoding in lib/protocol.js and the
+  connect sequence, settings handling, volume, APRS packet and callsign
+  handling in lib/radio.js are ported or adapted from HTCommander's Dart
+  sources (src/lib/radio/*.dart, src/lib/models/radio_models.dart,
+  docs/blogs/radio-command-protocol.md). They were rewritten in JavaScript
+  for Zepp OS and extended; they are not verbatim copies.
+
+benlink (https://github.com/khusmann/benlink), by Kyle Husmann
+  Licensed under the Apache License, Version 2.0.
+  Used as a reference for the received-packet fragment layout, the
+  notification types and the BSS (APRS) settings layout.
+
+@silver-zepp/easy-ble 1.7.8 (https://www.npmjs.com/package/@silver-zepp/easy-ble),
+by Silver, Zepp Health
+  Licensed under the MIT License. Bundled into the app package.
+
+  MIT License
+
+  Permission is hereby granted, free of charge, to any person obtaining a
+  copy of this software and associated documentation files (the "Software"),
+  to deal in the Software without restriction, including without limitation
+  the rights to use, copy, modify, merge, publish, distribute, sublicense,
+  and/or sell copies of the Software, and to permit persons to whom the
+  Software is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+  THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+  DEALINGS IN THE SOFTWARE.
