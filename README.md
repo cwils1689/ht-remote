@@ -127,7 +127,7 @@ the watch.
 | `page/ui/wheel.js` | The scrolling pick list used for channels and messages |
 | `page/ui/overlays.js` | Volume pop-up, message banner, message view |
 | `lib/credits.js` | Text of the About page (credits and licenses) |
-| `store/` | Draft Zepp store listing and privacy policy |
+| `store/` | Zepp store listing, privacy policy and screenshots (`store/screenshots/make-screenshots.ps1` redraws them) |
 | `LICENSE`, `NOTICE` | Apache-2.0 text and the third-party credits (HTCommander, benlink, easy-ble) |
 | `test/protocol.test.mjs` | `npm test`: protocol, radio, APRS and inbox logic with a fake link |
 
