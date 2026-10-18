@@ -62,12 +62,10 @@ went, whether it worked or not.
 Once it is approved, search for **HT Remote** in the App Store section of the
 Zepp app on your phone and install it to your watch.
 
-While it is pending, the 0.2.0 package is on the
-[Releases page](https://github.com/cwils1689/ht-remote/releases) for reference.
-Zepp doesn't document installing a package file directly, so to try the app
-before approval, build it from source and preview it on your watch (see
-[docs/DEVELOPING.md](docs/DEVELOPING.md)). That needs the Zeus tool and a
-Zepp developer account.
+While it is pending, you can try the app by building it from source and
+previewing it on your watch (see [docs/DEVELOPING.md](docs/DEVELOPING.md)).
+That needs the Zeus tool and a Zepp developer account. Zepp doesn't document
+installing a package file directly, so there is no download here.
 
 ### First connection
 
