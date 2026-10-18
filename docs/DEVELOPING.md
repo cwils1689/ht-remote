@@ -35,7 +35,8 @@ To run it you need a Benshi-type radio, paired as described in the
 | `page/index.js` | The main screen and its input handling |
 | `page/ui/wheel.js` | The scrolling pick list used for channels and messages |
 | `page/ui/overlays.js` | Volume pop-up, message banner, message view, About view |
-| `store/` | Zepp store listing, privacy policy and screenshots (`store/screenshots/make-screenshots.ps1` redraws the drawn ones) |
+| `store/privacy-policy.md` | The privacy policy linked from the Zepp store listing |
+| `docs/images/` | Screenshots used in the README |
 | `test/protocol.test.mjs` | The tests |
 | `LICENSE`, `NOTICE` | Apache-2.0 text and the third-party credits |
 

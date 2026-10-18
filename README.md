@@ -7,10 +7,10 @@ APRS messages without taking the radio out of your pocket or pack. No phone is
 needed once the radio is paired.
 
 <p>
-  <img src="store/screenshots/upload/1-main.png" width="200" alt="Both bands on the main screen">
-  <img src="store/screenshots/upload/3-channel-list.png" width="200" alt="Channel list">
-  <img src="store/screenshots/upload/2-volume.png" width="200" alt="Volume pop-up">
-  <img src="store/screenshots/upload/4-new-message.png" width="200" alt="New APRS message banner">
+  <img src="docs/images/1-main.png" width="200" alt="Both bands on the main screen">
+  <img src="docs/images/3-channel-list.png" width="200" alt="Channel list">
+  <img src="docs/images/2-volume.png" width="200" alt="Volume pop-up">
+  <img src="docs/images/4-new-message.png" width="200" alt="New APRS message banner">
 </p>
 
 ## What it does
